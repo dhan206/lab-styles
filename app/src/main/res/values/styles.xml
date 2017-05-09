@@ -1,7 +1,20 @@
 <resources>
 
     <!-- TODO: Add own styles here! -->
+    <style name="TextStyle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#4b2e83</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 
+    <style name="LabelStyle" parent="@style/TextStyle">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonStyle" parent="@android:style/MediaButton">
+        <item name="android:textSize">22sp</item>
+    </style>
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
